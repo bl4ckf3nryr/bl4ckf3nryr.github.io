@@ -1,0 +1,110 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: 'Arial', sans-serif; /* Fuente básica */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilo del header */
+header {
+    background-color: #1a1a1a; /* Fondo del header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #444; /* Línea inferior */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    color: #ffcc00; /* Color dorado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    margin-top: 10px;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin: 0 15px; /* Espacio entre elementos */
+}
+
+nav a {
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave */
+}
+
+nav a:hover {
+    color: #ff6600; /* Color anaranjado al pasar el ratón */
+    text-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Sombra al pasar el ratón */
+}
+
+/* Estilo del main */
+main {
+    padding: 20px;
+}
+
+/* Estilo de las secciones */
+section {
+    background-color: #1e1e1e; /* Fondo de la sección */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio entre secciones */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+section h2 {
+    color: #ffcc00; /* Color dorado */
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+section ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave */
+}
+
+a:hover {
+    color: #ff6600; /* Color anaranjado al pasar el ratón */
+    text-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Sombra al pasar el ratón */
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #1a1a1a; /* Fondo del footer */
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #444; /* Línea superior */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #e0e0e0; /* Texto claro */
+}

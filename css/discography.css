@@ -1,0 +1,190 @@
+/* Reset de márgenes y padding */
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo del body */ 
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */ font-family: 'Arial', sans-serif; /* Fuente básica */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilo del header */
+header {
+    background-color: #1a1a1a; /* Fondo del header */
+    padding: 20px; /* Espacio interior */
+    text-align: center; /* Alineación centrada */
+    border-bottom: 2px solid #444; /* Línea inferior */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    color: #ffcc00; /* Color dorado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilo de la navegación */ 
+nav ul { 
+    list-style: none; /* Sin viñetas */ 
+    padding: 0; /* Sin padding */
+}
+
+nav ul li {
+    display: inline; /* Mostrar en línea */
+    margin: 0 15px; /* Espacio horizontal entre elementos */}
+
+nav a {
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave */
+}
+
+nav a:hover {
+    color: #ff6600; /* Color anaranjado al pasar el ratón */
+    text-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Sombra al pasar el ratón */
+}
+
+/* Estilo del main */
+main {
+    padding: 20px;
+}
+
+/* Estilo de las secciones */ 
+section {
+    background-color: #1e1e1e; /* Fondo de la sección */
+    padding: 20px; border-radius: 8px; /* Bordes redondeados */
+    margin: 20px 0; /* Espacio entre secciones */
+    margin-bottom: 20px; /* Espacio entre secciones */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+section h2 {
+    color: #ffcc00; /* Color dorado */
+    margin-bottom: 10px; }
+
+section ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+section ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */ 
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none; /* Sin subrayado */
+    margin-left: 10px; /* Espacio a la izquierda */
+    transition: color 0.3s; /* Transición suave */
+}
+
+a:hover {
+    color: #ff6600; /* Color anaranjado al pasar el ratón */
+    text-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Sombra al pasar el ratón */
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #1a1a1a; /* Fondo del footer */
+    text-align: center; 
+    padding: 10px; 
+    border-top: 2px solid #444; /* Línea superior */
+    position: relative; bottom: 0; width: 100%;
+}
+
+footer p {
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilo de los elementos de álbum */
+.album-item {
+    display: flex; /* Usar flexbox para alinear imagen y texto */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 15px; /* Espacio entre elementos */
+}
+
+.album-item img {
+    width: 100px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantener la proporción */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 15px; /* Espacio a la derecha de la imagen */
+}
+
+.album-info {
+    flex-grow: 1; /* Permitir que el texto ocupe el espacio restante */
+}
+
+.album-links {
+    margin-top: 5px; /* Espacio superior para los enlaces */
+}
+
+.album-links a {
+    display: inline-block; /* Mostrar enlaces en línea */
+    margin-right: 10px ; /* Espacio a la derecha entre enlaces */
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave */
+}
+
+.album-links a:hover {
+    color: #ff6600; /* Color anaranjado al pasar el ratón */
+    text-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Sombra al pasar el ratón */
+}
+
+.descripcion {
+    color: #e0e0e0; /* Texto claro */
+    font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilo de la sub-descripción */
+.sub-descripcion {
+    margin-top: 15px; /* Espacio superior para separar de la descripción */
+    padding: 10px; /* Espacio interior */
+    background-color: #2a2a2a; /* Fondo ligeramente más claro para destacar */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.sub-descripcion h3 {
+    color: #ffcc00; /* Color dorado para el título de la sub-descripción */
+    font-size: 1em; /* Tamaño de fuente más pequeño */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+.sub-descripcion p {
+    color: #e0e0e0; /* Texto claro */
+    font-size: 0.90em; /* Tamaño de fuente más pequeño */
+    margin-top: 5px; /* Espacio superior */
+}
+
+/* Estilo para la lista de canciones */
+.tracklist {
+    margin-top: 10px; /* Espacio superior para separar de la sub-descripción */
+    padding: 10px; /* Espacio interior */
+    background-color: #2a2a2a; /* Fondo ligeramente más claro para destacar */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.tracklist h3 {
+    color: #ffcc00; /* Color dorado para el título de la lista de canciones */
+    font-size: 1.2em; /* Tamaño de fuente */
+    margin-bottom: 5px; /* Espacio inferior */
+}
+
+.tracklist ol {
+    padding-left: 20px; /* Espacio a la izquierda para la lista ordenada */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.tracklist li {
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
